@@ -15,8 +15,7 @@
 		994EBEDE20909596001BACEF /* Nimble_Snapshots.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */; };
 		994EBEDF2090959D001BACEF /* SnapKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED820909596001BACEF /* SnapKit.framework.dSYM */; };
 		99D7ED702090935800295F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED6F2090935800295F3D /* AppDelegate.swift */; };
-		99D7ED722090935800295F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED712090935800295F3D /* ViewController.swift */; };
-		99D7ED752090935800295F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED732090935800295F3D /* Main.storyboard */; };
+		99D7ED722090935800295F3D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED712090935800295F3D /* MainViewController.swift */; };
 		99D7ED772090935800295F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED762090935800295F3D /* Assets.xcassets */; };
 		99D7ED7A2090935800295F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED782090935800295F3D /* LaunchScreen.storyboard */; };
 		99D7ED852090935800295F3D /* ViewCodeTrainningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */; };
@@ -31,6 +30,8 @@
 		99F7C192209096ED0007D3D7 /* Nimble_Snapshots.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */; };
 		99F7C193209096ED0007D3D7 /* Nimble.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED720909596001BACEF /* Nimble.framework.dSYM */; };
 		99F7C194209096ED0007D3D7 /* Quick.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED620909596001BACEF /* Quick.framework.dSYM */; };
+		EF52545121F00E9B003B5A1A /* MainViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52545021F00E9B003B5A1A /* MainViewControllerView.swift */; };
+		EF52545321F00EB5003B5A1A /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52545221F00EB5003B5A1A /* ViewCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,8 +80,7 @@
 		994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble_Snapshots.framework.dSYM; path = Carthage/Build/iOS/Nimble_Snapshots.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		99D7ED6C2090935800295F3D /* ViewCodeTrainning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeTrainning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7ED6F2090935800295F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99D7ED712090935800295F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99D7ED742090935800295F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D7ED712090935800295F3D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		99D7ED762090935800295F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D7ED792090935800295F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99D7ED7B2090935800295F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +93,8 @@
 		99F7C189209096D40007D3D7 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		99F7C18A209096D40007D3D7 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		99F7C18B209096D50007D3D7 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
+		EF52545021F00E9B003B5A1A /* MainViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerView.swift; sourceTree = "<group>"; };
+		EF52545221F00EB5003B5A1A /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				99D7ED6F2090935800295F3D /* AppDelegate.swift */,
-				99D7ED712090935800295F3D /* ViewController.swift */,
-				99D7ED732090935800295F3D /* Main.storyboard */,
+				99D7ED712090935800295F3D /* MainViewController.swift */,
+				EF52545021F00E9B003B5A1A /* MainViewControllerView.swift */,
+				EF52545221F00EB5003B5A1A /* ViewCode.swift */,
 				99D7ED762090935800295F3D /* Assets.xcassets */,
 				99D7ED782090935800295F3D /* LaunchScreen.storyboard */,
 				99D7ED7B2090935800295F3D /* Info.plist */,
@@ -279,7 +282,6 @@
 				994EBEDB20909596001BACEF /* Quick.framework.dSYM in Resources */,
 				994EBEDD20909596001BACEF /* SnapKit.framework.dSYM in Resources */,
 				99D7ED772090935800295F3D /* Assets.xcassets in Resources */,
-				99D7ED752090935800295F3D /* Main.storyboard in Resources */,
 				994EBEDC20909596001BACEF /* Nimble.framework.dSYM in Resources */,
 				994EBEDE20909596001BACEF /* Nimble_Snapshots.framework.dSYM in Resources */,
 				99F7C186209096AE0007D3D7 /* Reusable.framework.dSYM in Resources */,
@@ -336,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D7ED722090935800295F3D /* ViewController.swift in Sources */,
+				99D7ED722090935800295F3D /* MainViewController.swift in Sources */,
 				99D7ED702090935800295F3D /* AppDelegate.swift in Sources */,
+				EF52545121F00E9B003B5A1A /* MainViewControllerView.swift in Sources */,
+				EF52545321F00EB5003B5A1A /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		99D7ED732090935800295F3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99D7ED742090935800295F3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99D7ED782090935800295F3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
